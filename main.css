@@ -23,7 +23,6 @@ text-align: center;
     
 }
 
-
 #navigation li{
 
     padding: 10px;
@@ -35,10 +34,11 @@ text-align: center;
     text-transform: uppercase;
     text-decoration-color: chartreuse;
     color: chartreuse; 
+    cursor: pointer;
 }
 
 #navigation a{
-color: aqua;
+color:blue;
 text-decoration: underline;
     text-transform: uppercase;
     text-decoration-color: chartreuse;
@@ -52,8 +52,8 @@ border-radius: 4px;
 
 }
 
-#lists li:hover{
-    text-decoration-style: dotted;
+li:hover{
+    background-color:ghostwhite;
 }
 
 #top {
@@ -67,7 +67,6 @@ border-radius: 4px;
     background-color: white;
 }
 #top-title{
-    
     padding: 20px;
 }
 
@@ -79,13 +78,33 @@ border-radius: 4px;
     width: 5%;
 }
 
+
 .main-img{
-  height: 100%;
+  height: 120%;
   width: 100%;
 }
 
+/*------banner----------*/
+
+#About-us{
+    position: ;
+
+}
+
 .main-txt{
-    top:20%;
-    height:90%;
-    width:80%
+    position: absolute;
+    width:48%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: burlywood;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+.banner{
+    text-align: center;
+}
+
+.About_image{
+    width: 50%;
 }
