@@ -55,3 +55,37 @@ border-radius: 4px;
 #lists li:hover{
     text-decoration-style: dotted;
 }
+
+#top {
+    display: center;
+    margin: 10px,20px,20px,30px;
+    padding: 2px;
+    left: 50px;
+}
+
+#intro{
+    background-color: white;
+}
+#top-title{
+    
+    padding: 20px;
+}
+
+#logo{
+    overflow: visible;
+    top: 10 px;
+    margin-top: -90px;
+    position: absolute;
+    width: 5%;
+}
+
+.main-img{
+  height: 100%;
+  width: 100%;
+}
+
+.main-txt{
+    top:20%;
+    height:90%;
+    width:80%
+}
