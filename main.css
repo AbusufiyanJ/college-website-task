@@ -112,7 +112,7 @@ li:hover{
 }
 
 
-/*--registration-----*/
+
 #custumers{
     margin: 0;
     font-size: 18px;
@@ -127,9 +127,10 @@ background-color: rgb(34, 25, 25);
 #form{
     margin: 30px;
     }
-
-
     
+
+
+
     
 input[type="email"],
 input[type="telephone"]{
@@ -150,7 +151,7 @@ input[type="submit"]{
     display:block;
     margin-left: 40%;
     margin-bottom: 20px;
-    background-color:darkslategray;
+    background-color:red;
     font-size: 20px;
     color: #fff;
     border: 0;
@@ -158,12 +159,10 @@ input[type="submit"]{
     text-align: center;
     letter-spacing: 0.1em;
     padding: 10px;
-
     width: 300px;
 }
 
 select{
-
     display:block;
    margin-left: 40%;
     padding: 10px 50px 10px 10px;
@@ -192,14 +191,13 @@ input[type="telephone"]:valid{
 input[type="email"]:valid + .tick,
 input[type="telephone"]:valid + .tick{
 
-    background: url( ../img/tick.png) ;
+
     background-size: 100%;
     
     display:inline-block;
     width: 20px;
     height: 20px;
     margin: 10px;
-    float: left;
     clear: both;
 
 }
